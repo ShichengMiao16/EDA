@@ -1,0 +1,33 @@
+{
+    "nproc": 10,
+    "load_type": "dota",
+    "img_dirs": [
+        "absolute path to DOTA train images",
+        "absolute path to DOTA val images"
+    ],
+    "ann_dirs": [
+        "absolute path to DOTA train labels",
+        "absolute path to DOTA val labels"
+    ],
+    "classes": null,
+    "prior_annfile": null,
+    "merge_type": "addition",
+    "sizes": [
+        1024
+    ],
+    "gaps": [
+        200
+    ],
+    "rates": [
+        1.0
+    ],
+    "img_rate_thr": 0.6,
+    "iof_thr": 0.7,
+    "no_padding": false,
+    "padding_value": [
+        104, 116, 124
+    ],
+    "filter_empty": true,
+    "save_dir": "absolute path to split_DOTA trainval directory",
+    "save_ext": ".png"
+}
