@@ -1,4 +1,4 @@
-# EDA: Three Aspects Make A Strong Oriented Object Detection Method
+# EDA: Recalibrating Features and Regression for Oriented Object Detection
 
 ## Introduction
 
